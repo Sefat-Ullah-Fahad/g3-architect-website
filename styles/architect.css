@@ -235,7 +235,21 @@ main {
 .sponsor-companies img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    
+}
+
+/* footer section */
+
+.footer {
+    margin-top: 170px;
+    margin-bottom: 250px;
+}
+.footer-copy {
+    border: 1px solid aquamarine;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.25rem;
 }
 
 
@@ -277,6 +291,10 @@ main {
         margin-top: 20px;
         margin-left: 20px;
     }
+    .footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
 }
 
 
